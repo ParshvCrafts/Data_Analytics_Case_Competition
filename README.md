@@ -22,7 +22,6 @@ The biggest unmet need in this dataset is not another chatbot. It is help organi
 
 ![Risk by Role](outputs/figures/fig_02_risk_by_role_hypothesis.png)
 
-![Regional Scorecard](outputs/figures/fig_05_regional_scorecard.png)
 
 ![Infrastructure Lift](outputs/figures/fig_08_infrastructure_lift.png)
 
