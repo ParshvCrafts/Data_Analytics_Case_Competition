@@ -1,0 +1,123 @@
+{
+  "gap_by_use_case": [
+    {
+      "use_case": "Organizing Data",
+      "use_rate": 0.1913978494623656,
+      "want_rate": 0.603225806451613,
+      "gap": 0.41182795698924735
+    },
+    {
+      "use_case": "Predictive AI",
+      "use_rate": 0.11182795698924732,
+      "want_rate": 0.5172043010752688,
+      "gap": 0.4053763440860215
+    },
+    {
+      "use_case": "Virtual Assistant",
+      "use_rate": 0.16129032258064516,
+      "want_rate": 0.556989247311828,
+      "gap": 0.39569892473118284
+    },
+    {
+      "use_case": "Interpreting Data",
+      "use_rate": 0.15268817204301074,
+      "want_rate": 0.4989247311827957,
+      "gap": 0.3462365591397849
+    },
+    {
+      "use_case": "Translate / Transcribe",
+      "use_rate": 0.24408602150537634,
+      "want_rate": 0.3903225806451613,
+      "gap": 0.14623655913978495
+    },
+    {
+      "use_case": "Chatbot Q&A",
+      "use_rate": 0.32688172043010755,
+      "want_rate": 0.3946236559139785,
+      "gap": 0.06774193548387097
+    },
+    {
+      "use_case": "Other AI Use",
+      "use_rate": 0.08709677419354839,
+      "want_rate": 0.11827956989247312,
+      "gap": 0.031182795698924737
+    },
+    {
+      "use_case": "Generative AI",
+      "use_rate": 0.5387096774193548,
+      "want_rate": 0.5494623655913978,
+      "gap": 0.010752688172043001
+    }
+  ],
+  "wug_by_cluster": [
+    {
+      "cluster_label": "AI Consumers",
+      "mean": 1.8068833652007648,
+      "median": 2.0,
+      "count": 523
+    },
+    {
+      "cluster_label": "AI Skeptics",
+      "mean": 0.7394366197183099,
+      "median": 0.0,
+      "count": 142
+    },
+    {
+      "cluster_label": "Late Adopters",
+      "mean": 2.4075471698113207,
+      "median": 2.0,
+      "count": 265
+    }
+  ],
+  "wug_by_region": [
+    {
+      "region": "Europe",
+      "mean": 2.515151515151515,
+      "median": 3.0,
+      "count": 33
+    },
+    {
+      "region": "India",
+      "mean": 1.9739130434782608,
+      "median": 2.0,
+      "count": 230
+    },
+    {
+      "region": "North America",
+      "mean": 1.7827715355805243,
+      "median": 2.0,
+      "count": 534
+    },
+    {
+      "region": "Other Asia",
+      "mean": 1.7666666666666666,
+      "median": 1.5,
+      "count": 30
+    },
+    {
+      "region": "Africa",
+      "mean": 1.7,
+      "median": 2.0,
+      "count": 60
+    },
+    {
+      "region": "Latin America",
+      "mean": 1.4090909090909092,
+      "median": 0.0,
+      "count": 22
+    },
+    {
+      "region": "Australia / Pacific",
+      "mean": 1.3333333333333333,
+      "median": 0.5,
+      "count": 6
+    },
+    {
+      "region": "Unknown",
+      "mean": 0.3333333333333333,
+      "median": 0.0,
+      "count": 15
+    }
+  ],
+  "pct_wug_ge_3": 36.98924731182795
+}

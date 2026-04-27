@@ -1,0 +1,86 @@
+{
+  "by_cluster": [
+    {
+      "cluster_label": "AI Consumers",
+      "mean": 0.38746080246913583,
+      "std": 0.5072602023784255,
+      "count": 324
+    },
+    {
+      "cluster_label": "Late Adopters",
+      "mean": 0.1794375,
+      "std": 0.4961170650488698,
+      "count": 160
+    },
+    {
+      "cluster_label": "AI Skeptics",
+      "mean": 0.15903692307692308,
+      "std": 0.5493227963164141,
+      "count": 65
+    }
+  ],
+  "by_region": [
+    {
+      "region": "Australia / Pacific",
+      "mean": 0.6178666666666667,
+      "std": 0.5358735049741994,
+      "count": 3
+    },
+    {
+      "region": "Europe",
+      "mean": 0.5752368421052632,
+      "std": 0.43716016542443353,
+      "count": 19
+    },
+    {
+      "region": "Other Asia",
+      "mean": 0.44515625,
+      "std": 0.3678637700177426,
+      "count": 16
+    },
+    {
+      "region": "India",
+      "mean": 0.3798219512195122,
+      "std": 0.4582368681163483,
+      "count": 123
+    },
+    {
+      "region": "Africa",
+      "mean": 0.32517555555555555,
+      "std": 0.48350131294150767,
+      "count": 45
+    },
+    {
+      "region": "North America",
+      "mean": 0.25727682926829265,
+      "std": 0.5464341618933661,
+      "count": 328
+    },
+    {
+      "region": "Latin America",
+      "mean": -0.01617692307692307,
+      "std": 0.4191109442495431,
+      "count": 13
+    },
+    {
+      "region": "Unknown",
+      "mean": -0.4242,
+      "std": 0.3483208004124933,
+      "count": 2
+    }
+  ],
+  "by_role_group": [
+    {
+      "role_group": "Non-technical",
+      "mean": 0.3016240075614367,
+      "std": 0.5164986029659007,
+      "count": 529
+    },
+    {
+      "role_group": "Tech/MERL",
+      "mean": 0.25128000000000006,
+      "std": 0.5960935829036809,
+      "count": 20
+    }
+  ]
+}

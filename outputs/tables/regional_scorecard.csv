@@ -1,0 +1,7 @@
+region,count,pct_ai_consumers,pct_has_tech_or_merl,mean_comfort,mean_wug,top_ai_uses,top_ai_wants,top_risks
+North America,534,54.11985018726592,35.0187265917603,6.140350877192983,1.7827715355805243,Generative AI | Chatbot Q&A | Translate / Transcribe,Organizing Data | Virtual Assistant | Generative AI,Data Breaches | IP / Plagiarism | Biased AI Decisions
+Europe,33,72.72727272727273,54.54545454545454,8.03225806451613,2.515151515151515,Generative AI | Chatbot Q&A | Translate / Transcribe,Virtual Assistant | Interpreting Data | Organizing Data,Biased AI Decisions | Data Breaches | IP / Plagiarism
+India,230,60.43478260869565,64.34782608695652,6.81042654028436,1.9739130434782608,Generative AI | Translate / Transcribe | Chatbot Q&A,Organizing Data | Generative AI | Predictive AI,Biased AI Decisions | Commercial AI Dependency | Data Breaches
+Africa,60,60.0,80.0,7.456140350877193,1.7,Generative AI | Chatbot Q&A | Virtual Assistant,Organizing Data | Generative AI | Virtual Assistant,IP / Plagiarism | Commercial AI Dependency | Data Breaches
+Latin America,22,45.45454545454545,36.36363636363637,5.681818181818182,1.4090909090909092,Generative AI | Organizing Data | Translate / Transcribe,Organizing Data | Predictive AI | Virtual Assistant,IP / Plagiarism | Data Breaches | Worker Replacement
+Other Asia,30,56.666666666666664,66.66666666666666,7.678571428571429,1.7666666666666666,Generative AI | Translate / Transcribe | Chatbot Q&A,Organizing Data | Interpreting Data | Virtual Assistant,Biased AI Decisions | Commercial AI Dependency | IP / Plagiarism

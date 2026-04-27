@@ -1,0 +1,95 @@
+{
+  "tests": [
+    {
+      "risk": "Decisions based on biased AI models",
+      "risk_short": "Biased AI Decisions",
+      "tech_merl_pct": 79.54545454545455,
+      "non_tech_pct": 53.16027088036117,
+      "pct_gap": 26.385183665093372,
+      "p_value": 0.001057057129273608,
+      "test_used": "Chi-squared",
+      "odds_ratio": 0.30367281910476096,
+      "cramers_v": 0.10738764665430703,
+      "p_value_holm": 0.0073993999049152565,
+      "significant_holm": true
+    },
+    {
+      "risk": "Increasing inequity, if lower-capacity organizations are unable to adopt it, or if AI bias harms groups",
+      "risk_short": "Increasing Inequity",
+      "tech_merl_pct": 50.0,
+      "non_tech_pct": 37.020316027088036,
+      "pct_gap": 12.979683972911966,
+      "p_value": 0.11521022969224556,
+      "test_used": "Chi-squared",
+      "odds_ratio": 0.5881826320501343,
+      "cramers_v": 0.051652851000253575,
+      "p_value_holm": 0.6912613781534733,
+      "significant_holm": false
+    },
+    {
+      "risk": "(Over) Dependency on commercial AI products",
+      "risk_short": "Commercial AI Dependency",
+      "tech_merl_pct": 54.54545454545454,
+      "non_tech_pct": 45.146726862302486,
+      "pct_gap": 9.398727683152059,
+      "p_value": 0.2860939764488708,
+      "test_used": "Chi-squared",
+      "odds_ratio": 0.688822702770728,
+      "cramers_v": 0.0349794401432775,
+      "p_value_holm": 1.0,
+      "significant_holm": false
+    },
+    {
+      "risk": "Environmental impact of using AI",
+      "risk_short": "Environmental Impact",
+      "tech_merl_pct": 38.63636363636363,
+      "non_tech_pct": 30.135440180586908,
+      "pct_gap": 8.500923455776727,
+      "p_value": 0.30425917151595105,
+      "test_used": "Chi-squared",
+      "odds_ratio": 0.6785426034820708,
+      "cramers_v": 0.03368789083040088,
+      "p_value_holm": 1.0,
+      "significant_holm": false
+    },
+    {
+      "risk": "Replacing workers with AI",
+      "risk_short": "Worker Replacement",
+      "tech_merl_pct": 38.63636363636363,
+      "non_tech_pct": 32.167042889390515,
+      "pct_gap": 6.469320746973118,
+      "p_value": 0.46567123996281523,
+      "test_used": "Chi-squared",
+      "odds_ratio": 0.7458734117088232,
+      "cramers_v": 0.023922568078283454,
+      "p_value_holm": 1.0,
+      "significant_holm": false
+    },
+    {
+      "risk": "AI-related data breaches",
+      "risk_short": "Data Breaches",
+      "tech_merl_pct": 59.09090909090909,
+      "non_tech_pct": 56.09480812641083,
+      "pct_gap": 2.9961009644982606,
+      "p_value": 0.813940728962843,
+      "test_used": "Chi-squared",
+      "odds_ratio": 0.8916850340300821,
+      "cramers_v": 0.007717276785215423,
+      "p_value_holm": 1.0,
+      "significant_holm": false
+    },
+    {
+      "risk": "Plagiarism, violating copyrights, and/or losing intellectual property",
+      "risk_short": "IP / Plagiarism",
+      "tech_merl_pct": 54.54545454545454,
+      "non_tech_pct": 54.176072234762984,
+      "pct_gap": 0.36938231069155725,
+      "p_value": 1.0,
+      "test_used": "Chi-squared",
+      "odds_ratio": 0.9890554007580892,
+      "cramers_v": 0.0,
+      "p_value_holm": 1.0,
+      "significant_holm": false
+    }
+  ]
+}

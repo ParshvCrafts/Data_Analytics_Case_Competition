@@ -1,0 +1,84 @@
+{
+  "topics": [
+    {
+      "topic_id": 0,
+      "top_terms": "time, need, using, knowledge, information, sector, non, technology",
+      "count": 205
+    },
+    {
+      "topic_id": 4,
+      "top_terms": "human, risk, potential, making, concern, job, promise, decision",
+      "count": 97
+    },
+    {
+      "topic_id": 2,
+      "top_terms": "use, help, writing, grant, hope, benefit, grant writing, content",
+      "count": 94
+    },
+    {
+      "topic_id": 1,
+      "top_terms": "fear, hope, hope fear, information, job, human, using, lot",
+      "count": 65
+    },
+    {
+      "topic_id": 3,
+      "top_terms": "know, like, way, use, believe, help, learn, social",
+      "count": 58
+    },
+    {
+      "topic_id": 5,
+      "top_terms": "people, think, replace, use, care, fear, art, create",
+      "count": 30
+    }
+  ],
+  "quotes": [
+    {
+      "response_index": 641,
+      "quote": "This can help bridge the educational gap in rural areas by offering high-quality resources that are otherwise inaccessible",
+      "cluster_label": "AI Consumers",
+      "region": "India",
+      "role": "Admin",
+      "hope_fear_class": "Hope-dominant"
+    },
+    {
+      "response_index": 636,
+      "quote": "However, this potential is accompanied by significant challenges and risks that we must navigate carefully",
+      "cluster_label": "AI Consumers",
+      "region": "India",
+      "role": "Governance",
+      "hope_fear_class": "Hope-dominant"
+    },
+    {
+      "response_index": 381,
+      "quote": "Working in journalism, a great fear is abusing AI in the creation of trustworthy information & relaying data",
+      "cluster_label": "AI Consumers",
+      "region": "North America",
+      "role": "Fundraiser",
+      "hope_fear_class": "Fear-dominant"
+    },
+    {
+      "response_index": 331,
+      "quote": "I fear that AI will take the human-ness out of our work, that people will further disconnect from others",
+      "cluster_label": "AI Consumers",
+      "region": "North America",
+      "role": "Leader",
+      "hope_fear_class": "Fear-dominant"
+    },
+    {
+      "response_index": 637,
+      "quote": "Hopes\nTransformational Impact: AI can revolutionize sectors like healthcare, education, and sustainability, solving global problems",
+      "cluster_label": "AI Skeptics",
+      "region": "India",
+      "role": "Admin",
+      "hope_fear_class": "Balanced"
+    },
+    {
+      "response_index": 919,
+      "quote": "I'm also concerned about becoming over reliant on something we don't fully understand",
+      "cluster_label": "AI Consumers",
+      "region": "Europe",
+      "role": "Fundraiser",
+      "hope_fear_class": "Balanced"
+    }
+  ]
+}

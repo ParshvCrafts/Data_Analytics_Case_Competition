@@ -1,0 +1,70 @@
+{
+  "regional_scorecard": [
+    {
+      "region": "North America",
+      "count": 534,
+      "pct_ai_consumers": 54.11985018726592,
+      "pct_has_tech_or_merl": 35.0187265917603,
+      "mean_comfort": 6.140350877192983,
+      "mean_wug": 1.7827715355805243,
+      "top_ai_uses": "Generative AI | Chatbot Q&A | Translate / Transcribe",
+      "top_ai_wants": "Organizing Data | Virtual Assistant | Generative AI",
+      "top_risks": "Data Breaches | IP / Plagiarism | Biased AI Decisions"
+    },
+    {
+      "region": "Europe",
+      "count": 33,
+      "pct_ai_consumers": 72.72727272727273,
+      "pct_has_tech_or_merl": 54.54545454545454,
+      "mean_comfort": 8.03225806451613,
+      "mean_wug": 2.515151515151515,
+      "top_ai_uses": "Generative AI | Chatbot Q&A | Translate / Transcribe",
+      "top_ai_wants": "Virtual Assistant | Interpreting Data | Organizing Data",
+      "top_risks": "Biased AI Decisions | Data Breaches | IP / Plagiarism"
+    },
+    {
+      "region": "India",
+      "count": 230,
+      "pct_ai_consumers": 60.43478260869565,
+      "pct_has_tech_or_merl": 64.34782608695652,
+      "mean_comfort": 6.81042654028436,
+      "mean_wug": 1.9739130434782608,
+      "top_ai_uses": "Generative AI | Translate / Transcribe | Chatbot Q&A",
+      "top_ai_wants": "Organizing Data | Generative AI | Predictive AI",
+      "top_risks": "Biased AI Decisions | Commercial AI Dependency | Data Breaches"
+    },
+    {
+      "region": "Africa",
+      "count": 60,
+      "pct_ai_consumers": 60.0,
+      "pct_has_tech_or_merl": 80.0,
+      "mean_comfort": 7.456140350877193,
+      "mean_wug": 1.7,
+      "top_ai_uses": "Generative AI | Chatbot Q&A | Virtual Assistant",
+      "top_ai_wants": "Organizing Data | Generative AI | Virtual Assistant",
+      "top_risks": "IP / Plagiarism | Commercial AI Dependency | Data Breaches"
+    },
+    {
+      "region": "Latin America",
+      "count": 22,
+      "pct_ai_consumers": 45.45454545454545,
+      "pct_has_tech_or_merl": 36.36363636363637,
+      "mean_comfort": 5.681818181818182,
+      "mean_wug": 1.4090909090909092,
+      "top_ai_uses": "Generative AI | Organizing Data | Translate / Transcribe",
+      "top_ai_wants": "Organizing Data | Predictive AI | Virtual Assistant",
+      "top_risks": "IP / Plagiarism | Data Breaches | Worker Replacement"
+    },
+    {
+      "region": "Other Asia",
+      "count": 30,
+      "pct_ai_consumers": 56.666666666666664,
+      "pct_has_tech_or_merl": 66.66666666666666,
+      "mean_comfort": 7.678571428571429,
+      "mean_wug": 1.7666666666666666,
+      "top_ai_uses": "Generative AI | Translate / Transcribe | Chatbot Q&A",
+      "top_ai_wants": "Organizing Data | Interpreting Data | Virtual Assistant",
+      "top_risks": "Biased AI Decisions | Commercial AI Dependency | IP / Plagiarism"
+    }
+  ]
+}

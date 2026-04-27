@@ -1,0 +1,252 @@
+[
+  {
+    "id": "F002",
+    "claim": "% nonprofits with 15 or fewer staff",
+    "value": 63.35,
+    "computed_in": "notebooks/01_eda.ipynb",
+    "cell_id": "Section 1.1",
+    "code_snippet": "small_orgs = df['org_size'].isin(['0-5','6-15']).sum(); pct_small = small_orgs / df['org_size'].notna().sum() * 100",
+    "verified": true
+  },
+  {
+    "id": "F003",
+    "claim": "Global North % (verifying 63% claim)",
+    "value": 62.62,
+    "computed_in": "notebooks/01_eda.ipynb",
+    "cell_id": "Section 1.1",
+    "code_snippet": "pct_north = df['global_north_south'].eq('N').sum() / df['global_north_south'].notna().sum() * 100",
+    "verified": true
+  },
+  {
+    "id": "F004",
+    "claim": "Mean AI comfort score by cluster \u2014 which is most comfortable",
+    "value": {
+      "AI Consumers": 7.61,
+      "AI Skeptics": 5.77,
+      "Late Adopters": 4.79
+    },
+    "computed_in": "notebooks/01_eda.ipynb",
+    "cell_id": "Section 1.2",
+    "code_snippet": "df.groupby('cluster_label')['person_ai_comfort_raw'].mean()",
+    "verified": true
+  },
+  {
+    "id": "F001",
+    "claim": "Largest want-use gap: Organizing Data with gap value",
+    "value": 0.4118,
+    "computed_in": "notebooks/01_eda.ipynb",
+    "cell_id": "Section 1.3",
+    "code_snippet": "gap = dfc['[W] Organi'].mean() - dfc['[U] Organi'].mean()",
+    "verified": true
+  },
+  {
+    "id": "F006",
+    "claim": "% organizations with NO infrastructure (infra_score == 0)",
+    "value": 11.61,
+    "computed_in": "notebooks/01_eda.ipynb",
+    "cell_id": "Section 1.6",
+    "code_snippet": "(df['infra_score'] == 0).sum() / len(df) * 100",
+    "verified": true
+  },
+  {
+    "id": "F005",
+    "claim": "Infrastructure score vs AI use count: linear regression slope",
+    "value": 0.426,
+    "computed_in": "notebooks/01_eda.ipynb",
+    "cell_id": "Section 1.6",
+    "code_snippet": "stats.linregress(df['infra_score'], df['ai_use_count'])",
+    "verified": true
+  },
+  {
+    "claim": "Tech and MERL respondents are more likely than non-technical peers to name biased AI decisions as a risk",
+    "value": {
+      "tech_merl_pct": 79.55,
+      "non_tech_pct": 53.16,
+      "odds_ratio": 0.304,
+      "p_value_holm": 0.0073993999049152565
+    },
+    "computed_in": "notebooks/02_hypothesis_tests.ipynb",
+    "cell_id": "Section 2.1",
+    "code_snippet": "chi2/fisher tests over role_group x risk indicators with Holm correction",
+    "verified": true,
+    "id": "F007"
+  },
+  {
+    "claim": "Regional variance inside the Global South is larger than the simple North-South split for at least one readiness metric",
+    "value": {
+      "metric": "Collaboration feasibility (0-10)",
+      "north_south_gap": 1.427,
+      "intra_south_spread": 2.145,
+      "epsilon_squared": 0.102
+    },
+    "computed_in": "notebooks/02_hypothesis_tests.ipynb",
+    "cell_id": "Section 2.2",
+    "code_snippet": "Kruskal-Wallis tests over six-region readiness metrics and north-south gap comparison",
+    "verified": true,
+    "id": "F008"
+  },
+  {
+    "claim": "A more detailed persona view pulls out an eager but underprepared group that the 3-cluster lens hides",
+    "value": {
+      "chosen_k": 5,
+      "persona_name": "Activation-Ready",
+      "mean_want_use_gap": 3.126,
+      "mean_infra_score": 3.053,
+      "silhouette_score": 0.096
+    },
+    "computed_in": "notebooks/03_clustering_deep_dive.ipynb",
+    "cell_id": "Section 3.2",
+    "code_snippet": "KMeans persona profiles with silhouette sweep from k=3..7",
+    "verified": true,
+    "id": "F012"
+  },
+  {
+    "claim": "Open-text responses often mix hope and fear instead of landing on one pure emotion",
+    "value": {
+      "balanced_share_by_cluster": {
+        "AI Consumers": 7.1,
+        "Late Adopters": 3.75,
+        "AI Skeptics": 9.23
+      },
+      "fear_share_by_cluster": {
+        "AI Consumers": 12.35,
+        "Late Adopters": 13.75,
+        "AI Skeptics": 13.85
+      },
+      "top_balanced_cluster": "AI Skeptics"
+    },
+    "computed_in": "notebooks/04_text_analysis.ipynb",
+    "cell_id": "Section 4.3",
+    "code_snippet": "Rule-based hope/fear lexicon over cleaned open-text responses",
+    "verified": true,
+    "id": "F014"
+  },
+  {
+    "claim": "Late Adopters carry the biggest Want-Use Gap, while Skeptics have the smallest",
+    "value": {
+      "cluster_means": {
+        "AI Consumers": 1.807,
+        "AI Skeptics": 0.739,
+        "Late Adopters": 2.408
+      },
+      "pct_wug_ge_3": 36.99
+    },
+    "computed_in": "notebooks/06_want_use_gap_index.ipynb",
+    "cell_id": "Section 6.1",
+    "code_snippet": "want_use_gap = ai_want_count - ai_use_count with group summaries by cluster and region",
+    "verified": true,
+    "id": "F016"
+  },
+  {
+    "claim": "More than one in five nonprofits want meaningfully more from AI but still lack the infrastructure to support it",
+    "value": {
+      "segment": "Foundation-needed",
+      "count": 209,
+      "pct": 22.47
+    },
+    "computed_in": "notebooks/06_want_use_gap_index.ipynb",
+    "cell_id": "Section 6.2",
+    "code_snippet": "2x2 segmentation using want_use_gap threshold of 3 and infra_score threshold of 3",
+    "verified": true,
+    "id": "F019"
+  },
+  {
+    "claim": "Cloud storage and data agreements stay predictive after controls, while org age and the North-South split do not",
+    "value": {
+      "top_term": "cloud_storage",
+      "top_term_odds_ratio": 1.931,
+      "top_term_p_value": 0.0001144615790531474,
+      "org_agreements_odds_ratio": 1.583,
+      "org_size_odds_ratio": 1.247,
+      "org_years_p_value": 0.6878201394512209,
+      "global_north_south_p_value": 0.55992450405152,
+      "ols_infra_slope": 0.353,
+      "ols_r_squared": 0.08
+    },
+    "computed_in": "notebooks/02_hypothesis_tests.ipynb",
+    "cell_id": "Section 2.3",
+    "code_snippet": "statsmodels.Logit for is_ai_consumer and OLS for ai_use_count ~ infra_score",
+    "verified": true,
+    "id": "F020"
+  },
+  {
+    "claim": "The sharpest staffing jump happens between micro nonprofits and the 6-15 staff group, not after the 15-staff line",
+    "value": {
+      "jump_from": "0-5",
+      "jump_to": "6-15",
+      "percentage_point_jump": 31.05
+    },
+    "computed_in": "notebooks/02_hypothesis_tests.ipynb",
+    "cell_id": "Section 2.4",
+    "code_snippet": "groupby org_size on has_tech_or_merl with piecewise trend line",
+    "verified": true,
+    "id": "F021"
+  },
+  {
+    "claim": "A fresh UMAP plus HDBSCAN rerun only partially reproduces the published clusters, so the original parameter choice clearly matters",
+    "value": {
+      "adjusted_rand_index": 0.239,
+      "cluster_count": 4,
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "min_cluster_size": 60,
+      "min_samples": 5
+    },
+    "computed_in": "notebooks/03_clustering_deep_dive.ipynb",
+    "cell_id": "Section 3.1",
+    "code_snippet": "UMAP + HDBSCAN grid search scored by adjusted_rand_score versus official cluster3 labels",
+    "verified": true,
+    "id": "F022"
+  },
+  {
+    "claim": "AI Consumers sound more positive overall, while Skeptics are both more negative and more emotionally varied",
+    "value": {
+      "cluster_with_lowest_mean_sentiment": "AI Skeptics",
+      "cluster_with_highest_sentiment_std": "AI Skeptics",
+      "cluster_means": {
+        "AI Consumers": 0.387,
+        "Late Adopters": 0.179,
+        "AI Skeptics": 0.159
+      }
+    },
+    "computed_in": "notebooks/04_text_analysis.ipynb",
+    "cell_id": "Section 4.2",
+    "code_snippet": "VADER sentiment scores grouped by cluster and region",
+    "verified": true,
+    "id": "F023"
+  },
+  {
+    "claim": "India and Africa look meaningfully different even though both are usually bundled into the Global South story",
+    "value": {
+      "india_mean_wug": 1.974,
+      "africa_mean_wug": 1.7,
+      "india_mean_comfort": 6.81,
+      "africa_mean_comfort": 7.456
+    },
+    "computed_in": "notebooks/05_geo_cause_analysis.ipynb",
+    "cell_id": "Section 5.1",
+    "code_snippet": "regional scorecard aggregations across AI consumer share, comfort, and WUG",
+    "verified": true,
+    "id": "F024"
+  },
+  {
+    "claim": "The top predictors mix infrastructure with operating context rather than collapsing to size alone",
+    "value": {
+      "top_logit_features": [
+        "region_compact_Europe",
+        "org_size_31-60",
+        "cloud_storage"
+      ],
+      "top_odds_ratios": [
+        5.22,
+        4.206,
+        1.91
+      ]
+    },
+    "computed_in": "notebooks/07_predictive_model.ipynb",
+    "cell_id": "Section 7.1",
+    "code_snippet": "Cross-validated sklearn models plus statsmodels logit coefficients over org, region, infrastructure, and role features",
+    "verified": true,
+    "id": "F025"
+  }
+]

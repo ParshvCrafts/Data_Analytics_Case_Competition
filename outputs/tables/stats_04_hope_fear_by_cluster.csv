@@ -1,0 +1,13 @@
+cluster_label,hope_fear_class,pct
+AI Consumers,Balanced,7.098765432098765
+AI Consumers,Fear-dominant,12.345679012345679
+AI Consumers,Hope-dominant,24.691358024691358
+AI Consumers,Neutral,55.8641975308642
+AI Skeptics,Balanced,9.230769230769232
+AI Skeptics,Fear-dominant,13.846153846153847
+AI Skeptics,Hope-dominant,20.0
+AI Skeptics,Neutral,56.92307692307692
+Late Adopters,Balanced,3.75
+Late Adopters,Fear-dominant,13.750000000000002
+Late Adopters,Hope-dominant,13.750000000000002
+Late Adopters,Neutral,68.75

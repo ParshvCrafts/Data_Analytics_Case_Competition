@@ -1,0 +1,226 @@
+{
+  "cluster_distribution": [
+    {
+      "cluster_label": "AI Consumers",
+      "hope_fear_class": "Balanced",
+      "pct": 7.098765432098765
+    },
+    {
+      "cluster_label": "AI Consumers",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 12.345679012345679
+    },
+    {
+      "cluster_label": "AI Consumers",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 24.691358024691358
+    },
+    {
+      "cluster_label": "AI Consumers",
+      "hope_fear_class": "Neutral",
+      "pct": 55.8641975308642
+    },
+    {
+      "cluster_label": "AI Skeptics",
+      "hope_fear_class": "Balanced",
+      "pct": 9.230769230769232
+    },
+    {
+      "cluster_label": "AI Skeptics",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 13.846153846153847
+    },
+    {
+      "cluster_label": "AI Skeptics",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 20.0
+    },
+    {
+      "cluster_label": "AI Skeptics",
+      "hope_fear_class": "Neutral",
+      "pct": 56.92307692307692
+    },
+    {
+      "cluster_label": "Late Adopters",
+      "hope_fear_class": "Balanced",
+      "pct": 3.75
+    },
+    {
+      "cluster_label": "Late Adopters",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 13.750000000000002
+    },
+    {
+      "cluster_label": "Late Adopters",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 13.750000000000002
+    },
+    {
+      "cluster_label": "Late Adopters",
+      "hope_fear_class": "Neutral",
+      "pct": 68.75
+    }
+  ],
+  "region_distribution": [
+    {
+      "region": "Africa",
+      "hope_fear_class": "Balanced",
+      "pct": 4.444444444444445
+    },
+    {
+      "region": "Africa",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 4.444444444444445
+    },
+    {
+      "region": "Africa",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 13.333333333333334
+    },
+    {
+      "region": "Africa",
+      "hope_fear_class": "Neutral",
+      "pct": 77.77777777777779
+    },
+    {
+      "region": "Australia / Pacific",
+      "hope_fear_class": "Balanced",
+      "pct": 0.0
+    },
+    {
+      "region": "Australia / Pacific",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 0.0
+    },
+    {
+      "region": "Australia / Pacific",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 66.66666666666666
+    },
+    {
+      "region": "Australia / Pacific",
+      "hope_fear_class": "Neutral",
+      "pct": 33.33333333333333
+    },
+    {
+      "region": "Europe",
+      "hope_fear_class": "Balanced",
+      "pct": 5.263157894736842
+    },
+    {
+      "region": "Europe",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 5.263157894736842
+    },
+    {
+      "region": "Europe",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 52.63157894736842
+    },
+    {
+      "region": "Europe",
+      "hope_fear_class": "Neutral",
+      "pct": 36.84210526315789
+    },
+    {
+      "region": "India",
+      "hope_fear_class": "Balanced",
+      "pct": 4.0650406504065035
+    },
+    {
+      "region": "India",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 7.317073170731707
+    },
+    {
+      "region": "India",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 17.073170731707318
+    },
+    {
+      "region": "India",
+      "hope_fear_class": "Neutral",
+      "pct": 71.54471544715447
+    },
+    {
+      "region": "Latin America",
+      "hope_fear_class": "Balanced",
+      "pct": 0.0
+    },
+    {
+      "region": "Latin America",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 15.384615384615385
+    },
+    {
+      "region": "Latin America",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 0.0
+    },
+    {
+      "region": "Latin America",
+      "hope_fear_class": "Neutral",
+      "pct": 84.61538461538461
+    },
+    {
+      "region": "North America",
+      "hope_fear_class": "Balanced",
+      "pct": 7.926829268292683
+    },
+    {
+      "region": "North America",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 16.76829268292683
+    },
+    {
+      "region": "North America",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 21.951219512195124
+    },
+    {
+      "region": "North America",
+      "hope_fear_class": "Neutral",
+      "pct": 53.35365853658537
+    },
+    {
+      "region": "Other Asia",
+      "hope_fear_class": "Balanced",
+      "pct": 6.25
+    },
+    {
+      "region": "Other Asia",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 6.25
+    },
+    {
+      "region": "Other Asia",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 18.75
+    },
+    {
+      "region": "Other Asia",
+      "hope_fear_class": "Neutral",
+      "pct": 68.75
+    },
+    {
+      "region": "Unknown",
+      "hope_fear_class": "Balanced",
+      "pct": 0.0
+    },
+    {
+      "region": "Unknown",
+      "hope_fear_class": "Fear-dominant",
+      "pct": 50.0
+    },
+    {
+      "region": "Unknown",
+      "hope_fear_class": "Hope-dominant",
+      "pct": 50.0
+    },
+    {
+      "region": "Unknown",
+      "hope_fear_class": "Neutral",
+      "pct": 0.0
+    }
+  ]
+}

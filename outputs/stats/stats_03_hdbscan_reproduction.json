@@ -1,0 +1,204 @@
+{
+  "grid_results": [
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "min_cluster_size": 60,
+      "min_samples": 5,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.23883054905724357
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "min_cluster_size": 90,
+      "min_samples": 5,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.23883054905724357
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "min_cluster_size": 60,
+      "min_samples": 15,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.2330797677743555
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "min_cluster_size": 90,
+      "min_samples": 15,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.2330797677743555
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "min_cluster_size": 60,
+      "min_samples": 5,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.2296461129796275
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "min_cluster_size": 90,
+      "min_samples": 5,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.2296461129796275
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "min_cluster_size": 60,
+      "min_samples": 15,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.22739471088746682
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.0,
+      "min_cluster_size": 60,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.22693640862891462
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.0,
+      "min_cluster_size": 90,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.22693640862891462
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.0,
+      "min_cluster_size": 120,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.22693640862891462
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.0,
+      "min_cluster_size": 60,
+      "min_samples": 5,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.224725644721016
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.0,
+      "min_cluster_size": 90,
+      "min_samples": 5,
+      "cluster_count": 4,
+      "adjusted_rand_index": 0.224725644721016
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "min_cluster_size": 120,
+      "min_samples": 5,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.22143896464504906
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.1,
+      "min_cluster_size": 60,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.21889569360976094
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.1,
+      "min_cluster_size": 90,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.21889569360976094
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.1,
+      "min_cluster_size": 120,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.21889569360976094
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "min_cluster_size": 120,
+      "min_samples": 5,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.21254226740134582
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.1,
+      "min_cluster_size": 60,
+      "min_samples": 5,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.209918904565131
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.1,
+      "min_cluster_size": 90,
+      "min_samples": 5,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.209918904565131
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.1,
+      "min_cluster_size": 120,
+      "min_samples": 5,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.209918904565131
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "min_cluster_size": 90,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.16249533371556174
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "min_cluster_size": 120,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.16249533371556174
+    },
+    {
+      "n_neighbors": 15,
+      "min_dist": 0.0,
+      "min_cluster_size": 120,
+      "min_samples": 15,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.16001704732573668
+    },
+    {
+      "n_neighbors": 30,
+      "min_dist": 0.0,
+      "min_cluster_size": 120,
+      "min_samples": 5,
+      "cluster_count": 3,
+      "adjusted_rand_index": 0.15338536447603923
+    }
+  ],
+  "best_params": {
+    "n_neighbors": 15,
+    "min_dist": 0.0,
+    "min_cluster_size": 60,
+    "min_samples": 5
+  },
+  "best_ari": 0.23883054905724357,
+  "best_cluster_count": 4
+}

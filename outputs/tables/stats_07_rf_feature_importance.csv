@@ -1,0 +1,32 @@
+feature,importance
+num__org_years_raw,0.15608404550257032
+num__cloud_storage,0.11379185203987802
+num__regionality,0.11032353760331777
+cat__org_size_0-5,0.09374285912150421
+num__org_agreements,0.061454756151575626
+cat__org_size_31-60,0.059824521497058435
+cat__region_India,0.04176470672071874
+num__data_use_policy,0.03490645600220872
+num__merl_person,0.03372142714357877
+num__tech_person,0.033077221546817366
+cat__role_Leader,0.02833407670565882
+cat__region_North America,0.026071367161179165
+cat__role_Comms,0.02220421778776538
+cat__role_Fundraiser,0.02162390896116048
+cat__role_Governance,0.02086728631056406
+cat__org_size_6-15,0.020279704811375626
+cat__org_size_16-30,0.02002318351258535
+cat__role_Admin,0.015491211683764045
+cat__org_size_121+,0.014314088304760388
+cat__region_Africa,0.012823197272864802
+cat__region_Latin America,0.012187646239029112
+cat__region_Europe,0.011503415915063545
+cat__org_size_61-120,0.009731949776066357
+cat__role_Other,0.006544612885768615
+cat__region_Other Asia,0.005987828054941484
+cat__role_Tech,0.00509615666488798
+cat__role_Programs,0.004105106837208616
+cat__role_Individual,0.003063122922159285
+cat__role_MERL,0.0010565348639691274
+cat__region_Unknown,0.0
+cat__region_Australia / Pacific,0.0

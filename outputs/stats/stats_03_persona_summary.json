@@ -1,0 +1,137 @@
+{
+  "silhouette_scores": [
+    {
+      "k": 3,
+      "silhouette_score": 0.11853574572416872
+    },
+    {
+      "k": 4,
+      "silhouette_score": 0.09820601986760197
+    },
+    {
+      "k": 5,
+      "silhouette_score": 0.09647549642140521
+    },
+    {
+      "k": 6,
+      "silhouette_score": 0.0903871256473869
+    },
+    {
+      "k": 7,
+      "silhouette_score": 0.07839820626102845
+    }
+  ],
+  "chosen_k": 5,
+  "personas": [
+    {
+      "persona_id": 2,
+      "count": 142,
+      "pct_of_sample": 15.268817204301074,
+      "infra_score": 3.76056338028169,
+      "ai_use_count": 4.105633802816901,
+      "ai_want_count": 5.746478873239437,
+      "want_use_gap": 1.6408450704225352,
+      "person_ai_comfort_raw": 8.367647058823529,
+      "risk_count": 3.711267605633803,
+      "role_mode": "Leader",
+      "region_mode": "North America",
+      "cluster_mode": "AI Consumers",
+      "[U] Generat": 0.8450704225352113,
+      "[U] Predict": 0.33098591549295775,
+      "[W] Predict": 0.8169014084507042,
+      "persona_name": "Quiet Builders",
+      "story": "These groups already have the basics, so their readiness shows up in actual daily use.",
+      "top_ai_uses": "Generative AI | Chatbot Q&A | Organizing Data",
+      "top_ai_wants": "Virtual Assistant | Interpreting Data | Predictive AI",
+      "top_risks": "Biased AI Decisions | IP / Plagiarism | Data Breaches"
+    },
+    {
+      "persona_id": 0,
+      "count": 151,
+      "pct_of_sample": 16.236559139784944,
+      "infra_score": 3.052980132450331,
+      "ai_use_count": 2.8741721854304636,
+      "ai_want_count": 6.0,
+      "want_use_gap": 3.1258278145695364,
+      "person_ai_comfort_raw": 7.489655172413793,
+      "risk_count": 3.609271523178808,
+      "role_mode": "Leader",
+      "region_mode": "North America",
+      "cluster_mode": "AI Consumers",
+      "[U] Generat": 0.7350993377483444,
+      "[U] Predict": 0.2185430463576159,
+      "[W] Predict": 0.9139072847682119,
+      "persona_name": "Activation-Ready",
+      "story": "This group moves steadily, with moderate demand, moderate use, and no single dominant pattern.",
+      "top_ai_uses": "Generative AI | Chatbot Q&A | Translate / Transcribe",
+      "top_ai_wants": "Organizing Data | Predictive AI | Virtual Assistant",
+      "top_risks": "IP / Plagiarism | Biased AI Decisions | Data Breaches"
+    },
+    {
+      "persona_id": 3,
+      "count": 108,
+      "pct_of_sample": 11.612903225806452,
+      "infra_score": 2.5555555555555554,
+      "ai_use_count": 1.6111111111111112,
+      "ai_want_count": 1.7592592592592593,
+      "want_use_gap": 0.14814814814814814,
+      "person_ai_comfort_raw": 7.057142857142857,
+      "risk_count": 2.638888888888889,
+      "role_mode": "Leader",
+      "region_mode": "North America",
+      "cluster_mode": "AI Consumers",
+      "[U] Generat": 0.5,
+      "[U] Predict": 0.10185185185185185,
+      "[W] Predict": 0.24074074074074073,
+      "persona_name": "Steady Pragmatists",
+      "story": "This group moves steadily, with moderate demand, moderate use, and no single dominant pattern.",
+      "top_ai_uses": "Generative AI | Chatbot Q&A | Organizing Data",
+      "top_ai_wants": "Generative AI | Organizing Data | Virtual Assistant",
+      "top_risks": "Biased AI Decisions | Data Breaches | IP / Plagiarism"
+    },
+    {
+      "persona_id": 1,
+      "count": 319,
+      "pct_of_sample": 34.30107526881721,
+      "infra_score": 1.6238244514106583,
+      "ai_use_count": 1.2727272727272727,
+      "ai_want_count": 4.2884012539184955,
+      "want_use_gap": 3.0156739811912225,
+      "person_ai_comfort_raw": 6.529801324503311,
+      "risk_count": 3.153605015673981,
+      "role_mode": "Leader",
+      "region_mode": "North America",
+      "cluster_mode": "AI Consumers",
+      "[U] Generat": 0.5736677115987461,
+      "[U] Predict": 0.0219435736677116,
+      "[W] Predict": 0.6081504702194357,
+      "persona_name": "Prediction-Curious",
+      "story": "They are aiming at advanced use cases before the underlying data foundation looks ready.",
+      "top_ai_uses": "Generative AI | Chatbot Q&A | Translate / Transcribe",
+      "top_ai_wants": "Organizing Data | Virtual Assistant | Generative AI",
+      "top_risks": "Data Breaches | IP / Plagiarism | Biased AI Decisions"
+    },
+    {
+      "persona_id": 4,
+      "count": 210,
+      "pct_of_sample": 22.58064516129032,
+      "infra_score": 1.7952380952380953,
+      "ai_use_count": 0.42857142857142855,
+      "ai_want_count": 0.4523809523809524,
+      "want_use_gap": 0.023809523809523808,
+      "person_ai_comfort_raw": 4.2105263157894735,
+      "risk_count": 2.5238095238095237,
+      "role_mode": "Leader",
+      "region_mode": "North America",
+      "cluster_mode": "Late Adopters",
+      "[U] Generat": 0.15714285714285714,
+      "[U] Predict": 0.02857142857142857,
+      "[W] Predict": 0.03333333333333333,
+      "persona_name": "Burned and Wary",
+      "story": "Skepticism here looks learned, not abstract, with lower comfort and higher risk salience.",
+      "top_ai_uses": "Generative AI | Other AI Use | Chatbot Q&A",
+      "top_ai_wants": "Generative AI | Organizing Data | Other AI Want",
+      "top_risks": "Data Breaches | Biased AI Decisions | IP / Plagiarism"
+    }
+  ]
+}

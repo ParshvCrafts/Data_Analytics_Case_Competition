@@ -1,0 +1,36 @@
+{
+  "headline_figures": [
+    {
+      "figure": "fig_06_want_use_gap_diverging.png",
+      "exists": true
+    },
+    {
+      "figure": "fig_06_wug_segment_matrix.png",
+      "exists": true
+    },
+    {
+      "figure": "fig_03_persona_parallel.png",
+      "exists": true
+    },
+    {
+      "figure": "fig_02_risk_by_role_hypothesis.png",
+      "exists": true
+    },
+    {
+      "figure": "fig_08_infrastructure_lift.png",
+      "exists": true
+    },
+    {
+      "figure": "fig_05_regional_scorecard.png",
+      "exists": true
+    },
+    {
+      "figure": "fig_04_hope_fear_ratio.png",
+      "exists": true
+    },
+    {
+      "figure": "fig_06_signature_periodic_table.png",
+      "exists": true
+    }
+  ]
+}

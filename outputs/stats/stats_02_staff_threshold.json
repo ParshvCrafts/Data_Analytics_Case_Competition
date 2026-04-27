@@ -1,0 +1,64 @@
+{
+  "threshold_summary": [
+    {
+      "org_size": "0-5",
+      "pct_has_tech_or_merl": 24.456521739130434,
+      "pct_ai_consumers": 46.19565217391305,
+      "count": 368,
+      "bucket_mid": 0,
+      "post_15": 0,
+      "piecewise_fit": 24.45652173913043
+    },
+    {
+      "org_size": "6-15",
+      "pct_has_tech_or_merl": 55.5045871559633,
+      "pct_ai_consumers": 56.88073394495413,
+      "count": 218,
+      "bucket_mid": 1,
+      "post_15": 0,
+      "piecewise_fit": 49.71178274520251
+    },
+    {
+      "org_size": "16-30",
+      "pct_has_tech_or_merl": 52.066115702479344,
+      "pct_ai_consumers": 58.67768595041323,
+      "count": 121,
+      "bucket_mid": 2,
+      "post_15": 1,
+      "piecewise_fit": 58.108554819030765
+    },
+    {
+      "org_size": "31-60",
+      "pct_has_tech_or_merl": 63.934426229508205,
+      "pct_ai_consumers": 78.68852459016394,
+      "count": 61,
+      "bucket_mid": 3,
+      "post_15": 2,
+      "piecewise_fit": 66.50532689285903
+    },
+    {
+      "org_size": "61-120",
+      "pct_has_tech_or_merl": 75.0,
+      "pct_ai_consumers": 65.625,
+      "count": 64,
+      "bucket_mid": 4,
+      "post_15": 3,
+      "piecewise_fit": 74.9020989666873
+    },
+    {
+      "org_size": "121+",
+      "pct_has_tech_or_merl": 86.02150537634408,
+      "pct_ai_consumers": 73.11827956989248,
+      "count": 93,
+      "bucket_mid": 5,
+      "post_15": 4,
+      "piecewise_fit": 83.29887104051556
+    }
+  ],
+  "piecewise_params": {
+    "const": 24.45652173913043,
+    "bucket_mid": 25.255261006072082,
+    "post_15": -16.858488932243823
+  },
+  "piecewise_r_squared": 0.962830190695646
+}

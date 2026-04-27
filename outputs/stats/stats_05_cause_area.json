@@ -1,0 +1,270 @@
+{
+  "cause_area_cluster_shares": [
+    {
+      "cause_area": "Animal Welfare",
+      "AI Consumers": 52.38095238095239,
+      "AI Skeptics": 9.523809523809524,
+      "Late Adopters": 38.095238095238095
+    },
+    {
+      "cause_area": "Arts & Culture",
+      "AI Consumers": 58.0952380952381,
+      "AI Skeptics": 7.6190476190476195,
+      "Late Adopters": 34.285714285714285
+    },
+    {
+      "cause_area": "Civic Engagement",
+      "AI Consumers": 52.63157894736842,
+      "AI Skeptics": 26.31578947368421,
+      "Late Adopters": 21.052631578947366
+    },
+    {
+      "cause_area": "Community Development",
+      "AI Consumers": 59.13978494623656,
+      "AI Skeptics": 14.516129032258066,
+      "Late Adopters": 26.344086021505376
+    },
+    {
+      "cause_area": "Conservation",
+      "AI Consumers": 60.0,
+      "AI Skeptics": 7.6923076923076925,
+      "Late Adopters": 32.30769230769231
+    },
+    {
+      "cause_area": "Economic Empowerment",
+      "AI Consumers": 63.74999999999999,
+      "AI Skeptics": 10.0,
+      "Late Adopters": 26.25
+    },
+    {
+      "cause_area": "Education",
+      "AI Consumers": 63.07053941908713,
+      "AI Skeptics": 10.78838174273859,
+      "Late Adopters": 26.141078838174277
+    },
+    {
+      "cause_area": "Emergency Relief",
+      "AI Consumers": 68.75,
+      "AI Skeptics": 6.25,
+      "Late Adopters": 25.0
+    },
+    {
+      "cause_area": "Environmental Sustainability",
+      "AI Consumers": 62.96296296296296,
+      "AI Skeptics": 3.7037037037037033,
+      "Late Adopters": 33.33333333333333
+    },
+    {
+      "cause_area": "Food Security",
+      "AI Consumers": 51.06382978723404,
+      "AI Skeptics": 10.638297872340425,
+      "Late Adopters": 38.297872340425535
+    },
+    {
+      "cause_area": "Health & Wellness",
+      "AI Consumers": 63.39869281045751,
+      "AI Skeptics": 8.49673202614379,
+      "Late Adopters": 28.104575163398692
+    },
+    {
+      "cause_area": "Homelessness",
+      "AI Consumers": 55.55555555555556,
+      "AI Skeptics": 11.11111111111111,
+      "Late Adopters": 33.33333333333333
+    },
+    {
+      "cause_area": "Human Rights & Justice",
+      "AI Consumers": 60.24096385542169,
+      "AI Skeptics": 10.843373493975903,
+      "Late Adopters": 28.915662650602407
+    },
+    {
+      "cause_area": "Mental Health",
+      "AI Consumers": 41.17647058823529,
+      "AI Skeptics": 17.647058823529413,
+      "Late Adopters": 41.17647058823529
+    },
+    {
+      "cause_area": "Philanthropy",
+      "AI Consumers": 64.0,
+      "AI Skeptics": 24.0,
+      "Late Adopters": 12.0
+    },
+    {
+      "cause_area": "Religious",
+      "AI Consumers": 50.0,
+      "AI Skeptics": 18.181818181818183,
+      "Late Adopters": 31.818181818181817
+    },
+    {
+      "cause_area": "Research",
+      "AI Consumers": 52.94117647058824,
+      "AI Skeptics": 17.647058823529413,
+      "Late Adopters": 29.411764705882355
+    },
+    {
+      "cause_area": "Social Movement",
+      "AI Consumers": 58.333333333333336,
+      "AI Skeptics": 16.666666666666664,
+      "Late Adopters": 25.0
+    },
+    {
+      "cause_area": "Social Services",
+      "AI Consumers": 53.289473684210535,
+      "AI Skeptics": 12.5,
+      "Late Adopters": 34.21052631578947
+    },
+    {
+      "cause_area": "Technology & Innovation",
+      "AI Consumers": 70.83333333333334,
+      "AI Skeptics": 8.333333333333332,
+      "Late Adopters": 20.833333333333336
+    },
+    {
+      "cause_area": "Women's Empowerment",
+      "AI Consumers": 60.317460317460316,
+      "AI Skeptics": 7.936507936507936,
+      "Late Adopters": 31.746031746031743
+    },
+    {
+      "cause_area": "Youth & Family Services",
+      "AI Consumers": 63.47826086956522,
+      "AI Skeptics": 13.91304347826087,
+      "Late Adopters": 22.608695652173914
+    }
+  ],
+  "cause_area_metrics": [
+    {
+      "cause_area": "Mental Health",
+      "mean_ai_use": 0.9411764705882353,
+      "mean_wug": 2.588235294117647,
+      "count": 17
+    },
+    {
+      "cause_area": "Women's Empowerment",
+      "mean_ai_use": 1.6984126984126984,
+      "mean_wug": 2.492063492063492,
+      "count": 63
+    },
+    {
+      "cause_area": "Environmental Sustainability",
+      "mean_ai_use": 2.0925925925925926,
+      "mean_wug": 2.462962962962963,
+      "count": 54
+    },
+    {
+      "cause_area": "Youth & Family Services",
+      "mean_ai_use": 1.4173913043478261,
+      "mean_wug": 2.417391304347826,
+      "count": 115
+    },
+    {
+      "cause_area": "Economic Empowerment",
+      "mean_ai_use": 1.875,
+      "mean_wug": 2.4,
+      "count": 80
+    },
+    {
+      "cause_area": "Human Rights & Justice",
+      "mean_ai_use": 1.8795180722891567,
+      "mean_wug": 2.3734939759036147,
+      "count": 83
+    },
+    {
+      "cause_area": "Research",
+      "mean_ai_use": 1.6470588235294117,
+      "mean_wug": 2.3529411764705883,
+      "count": 17
+    },
+    {
+      "cause_area": "Homelessness",
+      "mean_ai_use": 1.4166666666666667,
+      "mean_wug": 2.1944444444444446,
+      "count": 36
+    },
+    {
+      "cause_area": "Animal Welfare",
+      "mean_ai_use": 1.1666666666666667,
+      "mean_wug": 2.142857142857143,
+      "count": 42
+    },
+    {
+      "cause_area": "Arts & Culture",
+      "mean_ai_use": 1.5523809523809524,
+      "mean_wug": 2.1333333333333333,
+      "count": 105
+    },
+    {
+      "cause_area": "Social Movement",
+      "mean_ai_use": 1.5833333333333333,
+      "mean_wug": 2.125,
+      "count": 24
+    },
+    {
+      "cause_area": "Civic Engagement",
+      "mean_ai_use": 1.631578947368421,
+      "mean_wug": 2.1052631578947367,
+      "count": 19
+    },
+    {
+      "cause_area": "Education",
+      "mean_ai_use": 1.842323651452282,
+      "mean_wug": 2.087136929460581,
+      "count": 241
+    },
+    {
+      "cause_area": "Technology & Innovation",
+      "mean_ai_use": 2.5416666666666665,
+      "mean_wug": 2.0416666666666665,
+      "count": 24
+    },
+    {
+      "cause_area": "Health & Wellness",
+      "mean_ai_use": 1.7516339869281046,
+      "mean_wug": 2.026143790849673,
+      "count": 153
+    },
+    {
+      "cause_area": "Conservation",
+      "mean_ai_use": 1.676923076923077,
+      "mean_wug": 2.0153846153846153,
+      "count": 65
+    },
+    {
+      "cause_area": "Social Services",
+      "mean_ai_use": 1.6842105263157894,
+      "mean_wug": 1.9407894736842106,
+      "count": 152
+    },
+    {
+      "cause_area": "Community Development",
+      "mean_ai_use": 1.89247311827957,
+      "mean_wug": 1.913978494623656,
+      "count": 186
+    },
+    {
+      "cause_area": "Food Security",
+      "mean_ai_use": 1.553191489361702,
+      "mean_wug": 1.6595744680851063,
+      "count": 47
+    },
+    {
+      "cause_area": "Emergency Relief",
+      "mean_ai_use": 2.25,
+      "mean_wug": 1.625,
+      "count": 16
+    },
+    {
+      "cause_area": "Religious",
+      "mean_ai_use": 1.4090909090909092,
+      "mean_wug": 1.5454545454545454,
+      "count": 22
+    },
+    {
+      "cause_area": "Philanthropy",
+      "mean_ai_use": 2.2,
+      "mean_wug": 1.48,
+      "count": 25
+    }
+  ]
+}

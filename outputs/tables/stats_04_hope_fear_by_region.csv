@@ -1,0 +1,33 @@
+region,hope_fear_class,pct
+Africa,Balanced,4.444444444444445
+Africa,Fear-dominant,4.444444444444445
+Africa,Hope-dominant,13.333333333333334
+Africa,Neutral,77.77777777777779
+Australia / Pacific,Balanced,0.0
+Australia / Pacific,Fear-dominant,0.0
+Australia / Pacific,Hope-dominant,66.66666666666666
+Australia / Pacific,Neutral,33.33333333333333
+Europe,Balanced,5.263157894736842
+Europe,Fear-dominant,5.263157894736842
+Europe,Hope-dominant,52.63157894736842
+Europe,Neutral,36.84210526315789
+India,Balanced,4.0650406504065035
+India,Fear-dominant,7.317073170731707
+India,Hope-dominant,17.073170731707318
+India,Neutral,71.54471544715447
+Latin America,Balanced,0.0
+Latin America,Fear-dominant,15.384615384615385
+Latin America,Hope-dominant,0.0
+Latin America,Neutral,84.61538461538461
+North America,Balanced,7.926829268292683
+North America,Fear-dominant,16.76829268292683
+North America,Hope-dominant,21.951219512195124
+North America,Neutral,53.35365853658537
+Other Asia,Balanced,6.25
+Other Asia,Fear-dominant,6.25
+Other Asia,Hope-dominant,18.75
+Other Asia,Neutral,68.75
+Unknown,Balanced,0.0
+Unknown,Fear-dominant,50.0
+Unknown,Hope-dominant,50.0
+Unknown,Neutral,0.0

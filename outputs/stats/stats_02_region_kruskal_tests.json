@@ -1,0 +1,52 @@
+{
+  "region_counts": {
+    "North America": 534,
+    "India": 230,
+    "Africa": 60,
+    "Europe": 33,
+    "Other Asia": 30,
+    "Latin America": 22
+  },
+  "metric_tests": [
+    {
+      "metric": "collab_feasibility_raw",
+      "metric_label": "Collaboration feasibility (0-10)",
+      "kruskal_h": 94.52746581900762,
+      "p_value": 7.507342161677802e-19,
+      "epsilon_squared": 0.10220030344635572,
+      "north_south_gap": 1.4274346218191427,
+      "intra_south_spread": 2.1454545454545455,
+      "south_spread_gt_north_south_gap": true
+    },
+    {
+      "metric": "risk_count",
+      "metric_label": "Risk count",
+      "kruskal_h": 51.93762552229971,
+      "p_value": 5.556044473086324e-10,
+      "epsilon_squared": 0.0519796517411957,
+      "north_south_gap": 0.8679569293604379,
+      "intra_south_spread": 1.6023715415019764,
+      "south_spread_gt_north_south_gap": true
+    },
+    {
+      "metric": "person_ai_comfort_raw",
+      "metric_label": "AI comfort (0-10)",
+      "kruskal_h": 33.69009344868351,
+      "p_value": 2.744301816522542e-06,
+      "epsilon_squared": 0.03351646430920971,
+      "north_south_gap": 0.6763665371809102,
+      "intra_south_spread": 1.9967532467532472,
+      "south_spread_gt_north_south_gap": true
+    },
+    {
+      "metric": "ai_use_count",
+      "metric_label": "AI use count",
+      "kruskal_h": 13.15871859414022,
+      "p_value": 0.021935944561714583,
+      "epsilon_squared": 0.009035125796390056,
+      "north_south_gap": 0.34382251926111573,
+      "intra_south_spread": 0.5727272727272725,
+      "south_spread_gt_north_south_gap": true
+    }
+  ]
+}

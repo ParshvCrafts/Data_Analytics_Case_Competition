@@ -1,0 +1,36 @@
+{
+  "india_rural_urban_summary": [
+    {
+      "india_rural_urban": "metro",
+      "count": 85,
+      "pct_ai_consumers": 70.58823529411765,
+      "mean_comfort": 7.061728395061729,
+      "mean_infra": 2.4352941176470586,
+      "mean_wug": 2.4705882352941178
+    },
+    {
+      "india_rural_urban": "rural",
+      "count": 77,
+      "pct_ai_consumers": 51.94805194805194,
+      "mean_comfort": 6.36231884057971,
+      "mean_infra": 2.2857142857142856,
+      "mean_wug": 1.5714285714285714
+    },
+    {
+      "india_rural_urban": "urban",
+      "count": 66,
+      "pct_ai_consumers": 59.09090909090909,
+      "mean_comfort": 7.016666666666667,
+      "mean_infra": 2.212121212121212,
+      "mean_wug": 1.8636363636363635
+    }
+  ],
+  "comfort_kruskal": {
+    "statistic": 2.6518515106409994,
+    "p_value": 0.26555700444981906
+  },
+  "wug_kruskal": {
+    "statistic": 8.097578198638992,
+    "p_value": 0.01744348418300139
+  }
+}

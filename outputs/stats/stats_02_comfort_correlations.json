@@ -1,0 +1,14 @@
+{
+  "correlations": [
+    {
+      "relationship": "Comfort vs AI use count",
+      "spearman_rho": 0.4930481996255708,
+      "p_value": 5.700146767671748e-55
+    },
+    {
+      "relationship": "Comfort vs AI want count",
+      "spearman_rho": 0.3917606469109819,
+      "p_value": 1.382828102973406e-33
+    }
+  ]
+}
